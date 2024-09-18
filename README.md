@@ -9,12 +9,12 @@ My project consiste of engaging in a control environmennt using Tryhackme attack
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+- <b>Linux system</b> 
+  
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b> (21H2)
+- <b>Attackbox</b>
 
 <h2>Program walk-through:</h2>
 
