@@ -1,4 +1,4 @@
-<h1>Linux system Penetration and security Assessment(tryhackme)</h1>
+<h1>Linux system Penetration and security Assessment(Tryhackme)</h1>
 
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
