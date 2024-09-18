@@ -3,7 +3,7 @@
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+My project consiste of engaging in a control environmennt using Tryhackme attackbox to understand the process of accessing and securing a Linux system.Gained experience in identifying vulnerability and learned basic linux command while performing a simulated attack and defense scenerio.
 <br />
 
 
