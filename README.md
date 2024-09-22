@@ -19,8 +19,8 @@ My project consiste of engaging in a control environmennt using Tryhackme attack
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+First we launch out vitual machine(vm) or attack box to start and load Linux: <br/>
+<img src="https://imgur.com/xlUjQDS" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Select the disk:  <br/>
