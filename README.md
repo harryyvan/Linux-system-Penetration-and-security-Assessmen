@@ -19,12 +19,12 @@ My project consiste of engaging in a control environmennt using Tryhackme attack
 <h2>Program walk-through:</h2>
 
 <p align="center">
-First we launch out vitual machine(vm) or attack box to start and load Linux: <br/>
-<img src="https://imgur.com/a/VqEB8ce" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+First we launch our vitual machine(vm) or attack box to start and load Linux: <br/>
+<img src="https://ibb.co/9n4qS3j" height="80%" width="80%" alt="VM launch"/>
 <br />
 <br />
 Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/a/xIRLLct" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Enter the number of passes: <br/>
