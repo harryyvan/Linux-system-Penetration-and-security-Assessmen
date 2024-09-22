@@ -1,6 +1,5 @@
 <h1>Linux system Penetration and security Assessment(Tryhackme)</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
 My project consiste of engaging in a control environmennt using Tryhackme attackbox to understand the process of accessing and securing a Linux system.Gained experience in identifying vulnerability and learned basic linux command while performing a simulated attack and defense scenerio.
