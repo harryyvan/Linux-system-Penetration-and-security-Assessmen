@@ -20,32 +20,36 @@ My project consiste of engaging in a control environmennt using Tryhackme attack
 
 <p align="center">
 First we launch our vitual machine(vm) or attack box to start and load Linux: <br/>
-<img src="https://ibb.co/9n4qS3j" height="80%" width="80%" alt="VM launch"/>
+<img src="https://i.imgur.com/pyLAfL2.png" height="80%" width="80%" alt="VM launch"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://imgur.com/a/xIRLLct" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Now we are going to gatter some information about our target which is call Recon
+we have his IP address which is 10.10.161.87 and for that we will used the nmap function:  <br/>
+<img src="https://i.imgur.com/XtWryEG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Next we are going to connect to the target server which will be ftp 10.10.161.87: <br/>
+<img src="https://i.imgur.com/xePHV1Q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+We are going to try to login anonymous to see if FTP server support anonymous login:  <br/>
+<img src="https://i.imgur.com/KxzAovR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+At this point we are going to see file avaible using the LS command:  <br/>
+<img src="https://i.imgur.com/IVJf55u.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Now lets download the get of the file scret.txt to see what it contain using the GET command:  <br/>
+<img src="https://i.imgur.com/HbLx51A.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+Since we have downloaded the file we are going to exit:  <br/>
+<img src="https://i.imgur.com/ivb5CnE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Next we are going to see the content of the secret.txt file by using the CAT command,and we found the password :  <br/>
+<img src="https://i.imgur.com/d5jLAe7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <!--
  ```diff
